@@ -112,5 +112,14 @@ footer a {
      
 }
 
+#comercial { 
+    display: flex;
+    justify-content: center;
+}
+
+#category {
+    background-color: whitesmoke;
+}
+
 
 
