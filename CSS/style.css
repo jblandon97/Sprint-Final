@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+
+.bg-light, #btn-categories {
+    background-color: #14987c  !important;  
+}
+
+
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    
+}
+
+#lenguages {
+    position: absolute;
+    right: 5%;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+
+#search {
+    width: 30%;
+    height: 3rem;
+    border-radius: 2px;
+
+}
+
+#inputSearch {
+    margin-left: -5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#btn-lupe {
+    background-color: orange;
+    background-size: cover;
+    background-position: center;
+    width:50px;
+    height: 3rem;
+    border-radius: 2px;
+    border: none;
+}
+
+.nav-link {
+    margin-right: 3%;
+}
+
+#offers img {
+    width: 90%;
+    margin: 5% auto;
+    translate: calc(5%);
+}
+
+footer a {
+    text-decoration: none;
+    color:inherit;
+    
+}
+
+#location:before {
+    content:url("../IMG/icons8-house-24.png");
+    position: relative;
+    top: 5px;
+}
+
+#email:before {
+    content:url("../IMG/icons8-circled-envelope-30.png");
+    position: relative;
+    top: 10px;
+    left: -2px;
+}
+
+
+#tel:before {
+    content:url("../IMG/icons8-phone-24.png");
+}
+
+#mail:before {
+    content:url("../IMG/icons8-circled-envelope-30.png");
+
+}
+
+
+#tel, #mail {
+    display: flex;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+#Google-Apple {
+    width: max-content;
+}
+#Google-Apple img{
+    display: inline-block;
+     
+}
+
+
+
