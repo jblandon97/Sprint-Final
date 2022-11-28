@@ -1,0 +1,77 @@
+{
+    "products": [
+        {
+            "name": "Yumitos Chilli Sprinkled Potato Chips 100 g",
+            "categorie": "Biscuits & Snacks",
+            "typeOfProduct": "Snacks",
+            "promotionPrice": "$10.25",
+            "realPrice": "$12.36",
+            "amount": "100 g",
+            "img": "https://www.jiomart.com/images/product/600x600/491551827/bingo-yumitos-chilli-sprinkled-potato-chips-100-g-product-images-o491551827-p491551827-0-202207271957.jpg"
+        },
+        {
+            "name": "Fantasy Crunchy Choco Chip Cookies",
+            "categorie": "Biscuits & Snacks",
+            "typeOfProduct": "Snacks",
+            "promotionPrice": "$26.69",
+            "realPrice": "$28.56",
+            "amount": "350 g",
+            "img": "https://www.jiomart.com/images/product/600x600/491696805/sunfeast-dark-fantasy-crunchy-chocolatey-choco-chip-cookies-350-g-product-images-o491696805-p590126857-0-202208051711.jpg"
+        },
+        {
+            "name": "Bun Maska Jalapeno & Cilantro Butter (200g), Fresh Ingredients, Mexican Flavor",
+            "categorie": "Vegetables & Fruit",
+            "typeOfProduct": "Vegetable",
+            "promotionPrice": "$288.00",
+            "realPrice": "$320.00",
+            "amount": "200 g",
+            "img": "https://www.jiomart.com/images/product/600x600/rvb7pclhgv/bun-maska-jalapeno-cilantro-butter-200g-fresh-ingredients-mexican-flavor-product-images-orvb7pclhgv-p593815200-0-202209161613.jpg"
+        },
+        {
+            "name": "Britannia Maida Pizza Base Bread 250 g",
+            "categorie": "Groceries & Staples",
+            "typeOfProduct": "Grocery",
+            "promotionPrice": "$28.00",
+            "realPrice": "$30.00",
+            "amount"
+            : "250 g",
+            "img": "https://www.jiomart.com/images/product/600x600/491599846/britannia-maida-pizza-base-bread-250-g-product-images-o491599846-p491599846-0-202203170239.jpg"
+        },
+        {
+            "name": "Catch Meat Masala 100 g",
+            "categorie": "Meats & Seafood",
+            "typeOfProduct": "Meat",
+            "promotionPrice": "$60.00",
+            "realPrice": "$80.00",
+            "amount": "100 g",
+            "img": "https://www.jiomart.com/images/product/600x600/490000152/catch-meat-masala-100-g-product-images-o490000152-p490000152-0-202207252025.jpg"
+        },
+        {
+            "name": "Heineken Non Alcoholic Beer 330 ml (6 pcs)",
+            "categorie": "Wines & Alcohol Drink",
+            "typeOfProduct": "Alcohol Drink",
+            "promotionPrice": "$446.00",
+            "realPrice": "$480.00",
+            "amount": "330 ml",
+            "img": "https://www.jiomart.com/images/product/600x600/491551922/heineken-non-alcoholic-beer-330-ml-pack-of-6-product-images-o491551922-p491551922-0-202203170500.jpg"
+        },
+        {
+            "name": "Maaza Mango Drink 600 ml",
+            "categorie": "Beverages",
+            "typeOfProduct": "Beverage",
+            "promotionPrice": "$36.00",
+            "realPrice": "$40.00",
+            "amount": "600 ml",
+            "img": "https://www.jiomart.com/images/product/600x600/490001797/maaza-mango-drink-600-ml-product-images-o490001797-p490001797-0-202210141913.jpg"
+        },
+        {
+            "name": "Trimurti King's Sweet Corn Frozen 500 g",
+            "categorie": "Frozen Foods",
+            "typeOfProduct": "Frozen Food",
+            "promotionPrice": "$110.00",
+            "realPrice": "$220.00",
+            "amount": "1 Kg",
+            "img": "https://www.jiomart.com/images/product/600x600/490449184/trimurti-king-s-sweet-corn-frozen-1-kg-product-images-o490449184-p490449184-0-202211071910.jpg"
+        }
+    ]
+}

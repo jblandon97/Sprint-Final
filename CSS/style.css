@@ -8,6 +8,10 @@
 
 }
 
+.hidden {
+    display: none;
+}
+
 
 .bg-light, #btn-categories {
     background-color: #14987c  !important;  
@@ -30,14 +34,14 @@
 }
 
 #search {
-    width: 30%;
+    width: 60%;
     height: 3rem;
     border-radius: 2px;
 
 }
 
 #inputSearch {
-    margin-left: -5rem;
+    margin-left: 16rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,12 +118,104 @@ footer a {
 
 #comercial { 
     display: flex;
-    justify-content: center;
 }
 
 #category {
     background-color: whitesmoke;
+    position: relative;
+    left: 48px;
 }
+
+.card {
+    background-color: whitesmoke;
+    width:33%;
+}
+
+.card img {
+    width:75%;
+    height: 35%;
+    margin: 0 auto;
+}
+
+
+
+
+#topSaveToday {
+    width: 100%;
+    height: auto;
+    padding: 15% 0;
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    font-size: 1rem;
+}
+
+.headerTop {
+    translate: 100%;
+}
+
+.addToCar {
+    color: #14987c;
+    margin: 0 auto;
+    width: 90%;
+    height: 15%;
+    border-radius: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.addToCar p {
+    margin: 2% auto;
+}
+
+.addToCar button {
+    border-radius: 80%;
+    height: 100%;
+    margin-right: 0.5%;
+    width: 16%;
+    font-size: x-large;
+    border:none;
+}
+
+.amountAdded {
+    font-size: large;
+    margin: auto 0;
+}
+
+/* desactivarlo en el responsivo */
+.card-title, .card-text {
+    height: 10%;
+    
+}
+
+.name {
+    margin-bottom: 17.5%;
+}
+
+.btn-favority {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 30%;
+    background-color: white;
+
+}
+
+/* .favorities {
+    display: none;
+} */
+
+/* .headerTop {
+    width: 100px;
+    height: 5px;
+}
+ */
 
 
 
