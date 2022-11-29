@@ -31,42 +31,57 @@ const showProducts = async () => {
             <p class="card-text"><small class="text-muted">${element.amount}</small></p>
             <p class="card-text"><small class="text-success">${element.promotionPrice}</small><small class="text-success"> ${element.realPrice}</small></p>
             <div class="addToCar bg-white">
-            <!-- <button class="disadd">-</button> -->
-             <p class="amountAdded"><strong>Add</strong></p>
-            <button class="add">+</button>
-        </div>
-        </div>`;
+                <!-- <button class="disadd">-</button> -->
+                <p class="amountAdded"><strong>Add</strong></p>
+                <button class="add">+</button>
+            </div>
+        </div>`
+ 
         saveCard(div)
     })
     let card = document.getElementsByClassName("card flex-column justify-content-evenly")
+    let button2 = document.getElementsByClassName("add")
 
-    let hover = (card) => {
-
+    const hover = (card) => {
         for (let index = 0; index < card.length; index++) {
-            let button = document.createElement("button")
+            let button1 = document.createElement("button")
             card[index].addEventListener("mouseout", e => {
-
-                button.setAttribute("class", "btn-favority")
-                button.innerHTML = '<i class="fa bi-eye-fill"></i> | <i class="fa bi-recycle"></i> | <i class="fa bi-heart btn"></i>'
-                card[index].appendChild(button)
+                button1.setAttribute("class", "btn-favority")
+                button1.innerHTML = '<i class="fa bi-eye-fill"></i> | <i class="fa bi-recycle"></i> | <i class="fa bi-heart btn"></i>'
+                card[index].appendChild(button1)
 
             })
-            button.addEventListener("click", e => {
-                let _card = localStorage.getItem("cards")
-                let cards = []
-                if (_card == null) {
-                    cards = []
+            button2[index].addEventListener("click", e =>{
+                console.log("hola")
+                let _purchase = localStorage.getItem("purchases")
+                let purchases = []
+                if (_purchase == null) {
+                    purchases = []
                 } else {
-                    cards = JSON.parse(_card)
+                    purchases = JSON.parse(_purchase)
                 }
-                console.log(cards)
-                let newCard = e.path[1].innerHTML
-                cards.push(newCard)
-                localStorage.setItem("cards", JSON.stringify(cards))
+                console.log(purchases)
+                let newPurchase = e.path[3].innerHTML
+                purchases.push(newPurchase)
+                localStorage.setItem("purchases", JSON.stringify(purchases))
+            })
+            button1.addEventListener("click", e => {
+                card[index].removeChild(button1)
+                let _favority = localStorage.getItem("favorities")
+                let favorities = []
+                if (_favority == null) {
+                    favorities = []
+                } else {
+                    favorities = JSON.parse(_favority)
+                }
+                console.log(favorities)
+                let newCard = e.path[3].innerHTML
+                favorities.push(newCard)
+                localStorage.setItem("favorities", JSON.stringify(favorities))
 
             })
             card[index].addEventListener("mouseleave", e => {
-                card[index].removeChild(button)
+                card[index].removeChild(button1)
             })
 
 
@@ -75,6 +90,8 @@ const showProducts = async () => {
     }
     hover(card)
 }
+
+
 
 
 

@@ -155,7 +155,7 @@ footer a {
     translate: 100%;
 }
 
-.addToCar {
+.addToCar, .addPurchase {
     color: #14987c;
     margin: 0 auto;
     width: 90%;
@@ -180,6 +180,12 @@ footer a {
     font-size: x-large;
     border:none;
 }
+
+.addPurchase button {
+    border-radius: 50%;
+    width: 8.5%;
+}
+
 
 .amountAdded {
     font-size: large;
@@ -206,6 +212,8 @@ footer a {
     background-color: white;
 
 }
+
+
 
 /* .favorities {
     display: none;
