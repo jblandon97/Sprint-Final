@@ -52,8 +52,18 @@ const showProducts = async () => {
 
             })
             button.addEventListener("click", e => {
-               let favorities = document.getElementById("favorities")
-               favorities.appendChild(e.path[1])
+                let _card = localStorage.getItem("cards")
+                let cards = []
+                if (_card == null) {
+                    cards = []
+                } else {
+                    cards = JSON.parse(_card)
+                }
+                console.log(cards)
+                let newCard = e.path[1].innerHTML
+                cards.push(newCard)
+                localStorage.setItem("cards", JSON.stringify(cards))
+
             })
             card[index].addEventListener("mouseleave", e => {
                 card[index].removeChild(button)
@@ -61,8 +71,6 @@ const showProducts = async () => {
 
 
         }
-        // console.log(card)
-
 
     }
     hover(card)
